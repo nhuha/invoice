@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Invoice Suite" parallel="false">
+  <listeners>
+    <listener class-name="com.nhuha.invoice.ScreenshotOnFailure" />
+  </listeners>
+		<test name="Run all invoice tests [FF]">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nhuha.invoice.tests.Run" />
+		</classes>
+	</test>
+	<test name="Run all invoice tests [Chrome]">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nhuha.invoice.tests.Run" />
+		</classes>
+	</test>	
+</suite>

@@ -1,0 +1,3147 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Invoice_Suite">
+              <span class="suite-name border-failed">Invoice Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Invoice_Suite">
+                    <span>D:\git\invoice\src\main\resources\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Invoice_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Invoice_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Invoice_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Invoice_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Invoice_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Invoice_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">136 methods, 2 failed,   134 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Invoice_Suite" class="hide-methods failed suite-Invoice_Suite"> (hide)</a> <!-- hide-methods failed suite-Invoice_Suite -->
+                      <a href="#" panel-name="suite-Invoice_Suite" class="show-methods failed suite-Invoice_Suite"> (show)</a> <!-- show-methods failed suite-Invoice_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Invoice_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductNameValidatioONFalure">addProductNameValidatioONFalure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductNameValidatioONFalure">addProductNameValidatioONFalure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Invoice_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Invoice_Suite" class="hide-methods passed suite-Invoice_Suite"> (hide)</a> <!-- hide-methods passed suite-Invoice_Suite -->
+                      <a href="#" panel-name="suite-Invoice_Suite" class="show-methods passed suite-Invoice_Suite"> (show)</a> <!-- show-methods passed suite-Invoice_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Invoice_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductNameValidation">addProductNameValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductNameValidation">addProductNameValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductPriceQuantity">addProductPriceQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductPriceQuantity">addProductPriceQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductPriceValidation">addProductPriceValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addProductPriceValidation">addProductPriceValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsKg">addUnitsKg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsKg">addUnitsKg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsL">addUnitsL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsL">addUnitsL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsM">addUnitsM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsM">addUnitsM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsM2">addUnitsM2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsM2">addUnitsM2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsPcs">addUnitsPcs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="addUnitsPcs">addUnitsPcs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="cancelEditProduct">cancelEditProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="cancelEditProduct">cancelEditProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPrice">editPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPrice">editPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation( )">editPriceValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(%$)">editPriceValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(c)">editPriceValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(0)">editPriceValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(CA)">editPriceValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(-1)">editPriceValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(-1.1)">editPriceValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(ca)">editPriceValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(C)">editPriceValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation( )">editPriceValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(CA)">editPriceValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(-1)">editPriceValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(%$)">editPriceValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(0)">editPriceValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(ca)">editPriceValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(-1.1)">editPriceValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(C)">editPriceValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editPriceValidation(c)">editPriceValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProduct">editProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProduct">editProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(C)">editProductNameValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(ca)">editProductNameValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation( )">editProductNameValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(c)">editProductNameValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(%$)">editProductNameValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(CA)">editProductNameValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(12)">editProductNameValidation(12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(CA)">editProductNameValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation( )">editProductNameValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(C)">editProductNameValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(ca)">editProductNameValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(12)">editProductNameValidation(12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(c)">editProductNameValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editProductNameValidation(%$)">editProductNameValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQantity">editQantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQantity">editQantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(ca)">editQuantityValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(%$)">editQuantityValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(CA)">editQuantityValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation( )">editQuantityValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(-1)">editQuantityValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(-1.1)">editQuantityValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(0)">editQuantityValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(C)">editQuantityValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(c)">editQuantityValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(c)">editQuantityValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(0)">editQuantityValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(C)">editQuantityValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation( )">editQuantityValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(%$)">editQuantityValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(-1)">editQuantityValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(CA)">editQuantityValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(-1.1)">editQuantityValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editQuantityValidation(ca)">editQuantityValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editUnit">editUnit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="editUnit">editUnit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="emptyFieldsValidation">emptyFieldsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="emptyFieldsValidation">emptyFieldsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(%$)">priceValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(-1.1)">priceValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(C)">priceValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(-1)">priceValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(CA)">priceValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(0)">priceValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(ca)">priceValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(c)">priceValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation( )">priceValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(c)">priceValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(-1)">priceValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(C)">priceValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(CA)">priceValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(0)">priceValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(ca)">priceValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(%$)">priceValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation(-1.1)">priceValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="priceValidation( )">priceValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(CA)">productNameValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(%$)">productNameValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(ca)">productNameValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation( )">productNameValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(12)">productNameValidation(12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(C)">productNameValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(c)">productNameValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(CA)">productNameValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(C)">productNameValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(c)">productNameValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation( )">productNameValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(ca)">productNameValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(%$)">productNameValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="productNameValidation(12)">productNameValidation(12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(CA)">quantityValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation( )">quantityValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(C)">quantityValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(ca)">quantityValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(-1.1)">quantityValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(-1)">quantityValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(0)">quantityValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(c)">quantityValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(%$)">quantityValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(CA)">quantityValidation(CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(-1)">quantityValidation(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation( )">quantityValidation( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(ca)">quantityValidation(ca)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(0)">quantityValidation(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(%$)">quantityValidation(%$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(-1.1)">quantityValidation(-1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(C)">quantityValidation(C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="quantityValidation(c)">quantityValidation(c)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="totalPriceVerification">totalPriceVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="totalPriceVerification">totalPriceVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="totalProductPriceVerification">totalProductPriceVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Invoice_Suite" title="com.nhuha.invoice.tests.Run" hash-for-method="totalProductPriceVerification">totalProductPriceVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Invoice_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Invoice_Suite" class="panel Invoice_Suite">
+          <div class="suite-Invoice_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nhuha.invoice.tests.Run</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductNameValidatioONFalure">
+                  </a> <!-- addProductNameValidatioONFalure -->
+                  <span class="method-name">addProductNameValidatioONFalure</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.tr-cell.test&quot;}
+Command duration or timeout: 10.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Volodymyr-PC&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=XP, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 99a35825-7f3a-4add-9f45-cae35d66c0ad
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:171)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:236)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:167)
+	at com.nhuha.invoice.tests.Run.addProductNameValidatioONFalure(Run.java:73)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.tr-cell.test&quot;}
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Volodymyr-PC&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/VOLODY~1/AppData/Local/Temp/anonymous4214243960361960312webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/VOLODY~1/AppData/Local/Temp/anonymous4214243960361960312webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductNameValidatioONFalure">
+                  </a> <!-- addProductNameValidatioONFalure -->
+                  <span class="method-name">addProductNameValidatioONFalure</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=37.0.2062.124)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d&apos;, time: &apos;2014-06-03 17:42:30&apos;
+System info: host: &apos;Volodymyr-PC&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\VOLODY~1\AppData\Local\Temp\scoped_dir7976_23724}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=37.0.2062.124, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7711cc9ec78b325c9e5d58211c3b6862
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:171)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:236)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:167)
+	at com.nhuha.invoice.tests.Run.addProductNameValidatioONFalure(Run.java:73)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Invoice_Suite-class-failed -->
+          <div class="suite-Invoice_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nhuha.invoice.tests.Run</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductNameValidation">
+                  </a> <!-- addProductNameValidation -->
+                  <span class="method-name">addProductNameValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductNameValidation">
+                  </a> <!-- addProductNameValidation -->
+                  <span class="method-name">addProductNameValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductPriceQuantity">
+                  </a> <!-- addProductPriceQuantity -->
+                  <span class="method-name">addProductPriceQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductPriceQuantity">
+                  </a> <!-- addProductPriceQuantity -->
+                  <span class="method-name">addProductPriceQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductPriceValidation">
+                  </a> <!-- addProductPriceValidation -->
+                  <span class="method-name">addProductPriceValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductPriceValidation">
+                  </a> <!-- addProductPriceValidation -->
+                  <span class="method-name">addProductPriceValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsKg">
+                  </a> <!-- addUnitsKg -->
+                  <span class="method-name">addUnitsKg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsKg">
+                  </a> <!-- addUnitsKg -->
+                  <span class="method-name">addUnitsKg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsL">
+                  </a> <!-- addUnitsL -->
+                  <span class="method-name">addUnitsL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsL">
+                  </a> <!-- addUnitsL -->
+                  <span class="method-name">addUnitsL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsM">
+                  </a> <!-- addUnitsM -->
+                  <span class="method-name">addUnitsM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsM">
+                  </a> <!-- addUnitsM -->
+                  <span class="method-name">addUnitsM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsM2">
+                  </a> <!-- addUnitsM2 -->
+                  <span class="method-name">addUnitsM2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsM2">
+                  </a> <!-- addUnitsM2 -->
+                  <span class="method-name">addUnitsM2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsPcs">
+                  </a> <!-- addUnitsPcs -->
+                  <span class="method-name">addUnitsPcs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnitsPcs">
+                  </a> <!-- addUnitsPcs -->
+                  <span class="method-name">addUnitsPcs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelEditProduct">
+                  </a> <!-- cancelEditProduct -->
+                  <span class="method-name">cancelEditProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelEditProduct">
+                  </a> <!-- cancelEditProduct -->
+                  <span class="method-name">cancelEditProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPrice">
+                  </a> <!-- editPrice -->
+                  <span class="method-name">editPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPrice">
+                  </a> <!-- editPrice -->
+                  <span class="method-name">editPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation( )">
+                  </a> <!-- editPriceValidation( ) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(%$)">
+                  </a> <!-- editPriceValidation(%$) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(c)">
+                  </a> <!-- editPriceValidation(c) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(0)">
+                  </a> <!-- editPriceValidation(0) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(CA)">
+                  </a> <!-- editPriceValidation(CA) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(-1)">
+                  </a> <!-- editPriceValidation(-1) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(-1.1)">
+                  </a> <!-- editPriceValidation(-1.1) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(ca)">
+                  </a> <!-- editPriceValidation(ca) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(C)">
+                  </a> <!-- editPriceValidation(C) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation( )">
+                  </a> <!-- editPriceValidation( ) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(CA)">
+                  </a> <!-- editPriceValidation(CA) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(-1)">
+                  </a> <!-- editPriceValidation(-1) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(%$)">
+                  </a> <!-- editPriceValidation(%$) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(0)">
+                  </a> <!-- editPriceValidation(0) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(ca)">
+                  </a> <!-- editPriceValidation(ca) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(-1.1)">
+                  </a> <!-- editPriceValidation(-1.1) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(C)">
+                  </a> <!-- editPriceValidation(C) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPriceValidation(c)">
+                  </a> <!-- editPriceValidation(c) -->
+                  <span class="method-name">editPriceValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProduct">
+                  </a> <!-- editProduct -->
+                  <span class="method-name">editProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProduct">
+                  </a> <!-- editProduct -->
+                  <span class="method-name">editProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(C)">
+                  </a> <!-- editProductNameValidation(C) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(ca)">
+                  </a> <!-- editProductNameValidation(ca) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation( )">
+                  </a> <!-- editProductNameValidation( ) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(c)">
+                  </a> <!-- editProductNameValidation(c) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(%$)">
+                  </a> <!-- editProductNameValidation(%$) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(CA)">
+                  </a> <!-- editProductNameValidation(CA) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(12)">
+                  </a> <!-- editProductNameValidation(12) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(CA)">
+                  </a> <!-- editProductNameValidation(CA) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation( )">
+                  </a> <!-- editProductNameValidation( ) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(C)">
+                  </a> <!-- editProductNameValidation(C) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(ca)">
+                  </a> <!-- editProductNameValidation(ca) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(12)">
+                  </a> <!-- editProductNameValidation(12) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(c)">
+                  </a> <!-- editProductNameValidation(c) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProductNameValidation(%$)">
+                  </a> <!-- editProductNameValidation(%$) -->
+                  <span class="method-name">editProductNameValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQantity">
+                  </a> <!-- editQantity -->
+                  <span class="method-name">editQantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQantity">
+                  </a> <!-- editQantity -->
+                  <span class="method-name">editQantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(ca)">
+                  </a> <!-- editQuantityValidation(ca) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(%$)">
+                  </a> <!-- editQuantityValidation(%$) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(CA)">
+                  </a> <!-- editQuantityValidation(CA) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation( )">
+                  </a> <!-- editQuantityValidation( ) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(-1)">
+                  </a> <!-- editQuantityValidation(-1) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(-1.1)">
+                  </a> <!-- editQuantityValidation(-1.1) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(0)">
+                  </a> <!-- editQuantityValidation(0) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(C)">
+                  </a> <!-- editQuantityValidation(C) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(c)">
+                  </a> <!-- editQuantityValidation(c) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(c)">
+                  </a> <!-- editQuantityValidation(c) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(0)">
+                  </a> <!-- editQuantityValidation(0) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(C)">
+                  </a> <!-- editQuantityValidation(C) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation( )">
+                  </a> <!-- editQuantityValidation( ) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(%$)">
+                  </a> <!-- editQuantityValidation(%$) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(-1)">
+                  </a> <!-- editQuantityValidation(-1) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(CA)">
+                  </a> <!-- editQuantityValidation(CA) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(-1.1)">
+                  </a> <!-- editQuantityValidation(-1.1) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editQuantityValidation(ca)">
+                  </a> <!-- editQuantityValidation(ca) -->
+                  <span class="method-name">editQuantityValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editUnit">
+                  </a> <!-- editUnit -->
+                  <span class="method-name">editUnit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editUnit">
+                  </a> <!-- editUnit -->
+                  <span class="method-name">editUnit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFieldsValidation">
+                  </a> <!-- emptyFieldsValidation -->
+                  <span class="method-name">emptyFieldsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFieldsValidation">
+                  </a> <!-- emptyFieldsValidation -->
+                  <span class="method-name">emptyFieldsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(%$)">
+                  </a> <!-- priceValidation(%$) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(-1.1)">
+                  </a> <!-- priceValidation(-1.1) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(C)">
+                  </a> <!-- priceValidation(C) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(-1)">
+                  </a> <!-- priceValidation(-1) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(CA)">
+                  </a> <!-- priceValidation(CA) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(0)">
+                  </a> <!-- priceValidation(0) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(ca)">
+                  </a> <!-- priceValidation(ca) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(c)">
+                  </a> <!-- priceValidation(c) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation( )">
+                  </a> <!-- priceValidation( ) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(c)">
+                  </a> <!-- priceValidation(c) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(-1)">
+                  </a> <!-- priceValidation(-1) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(C)">
+                  </a> <!-- priceValidation(C) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(CA)">
+                  </a> <!-- priceValidation(CA) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(0)">
+                  </a> <!-- priceValidation(0) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(ca)">
+                  </a> <!-- priceValidation(ca) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(%$)">
+                  </a> <!-- priceValidation(%$) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation(-1.1)">
+                  </a> <!-- priceValidation(-1.1) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceValidation( )">
+                  </a> <!-- priceValidation( ) -->
+                  <span class="method-name">priceValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(CA)">
+                  </a> <!-- productNameValidation(CA) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(%$)">
+                  </a> <!-- productNameValidation(%$) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(ca)">
+                  </a> <!-- productNameValidation(ca) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation( )">
+                  </a> <!-- productNameValidation( ) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(12)">
+                  </a> <!-- productNameValidation(12) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(C)">
+                  </a> <!-- productNameValidation(C) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(c)">
+                  </a> <!-- productNameValidation(c) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(CA)">
+                  </a> <!-- productNameValidation(CA) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(C)">
+                  </a> <!-- productNameValidation(C) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(c)">
+                  </a> <!-- productNameValidation(c) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation( )">
+                  </a> <!-- productNameValidation( ) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(ca)">
+                  </a> <!-- productNameValidation(ca) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(%$)">
+                  </a> <!-- productNameValidation(%$) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productNameValidation(12)">
+                  </a> <!-- productNameValidation(12) -->
+                  <span class="method-name">productNameValidation</span>
+                  <span class="parameters">(12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(CA)">
+                  </a> <!-- quantityValidation(CA) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation( )">
+                  </a> <!-- quantityValidation( ) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(C)">
+                  </a> <!-- quantityValidation(C) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(ca)">
+                  </a> <!-- quantityValidation(ca) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(-1.1)">
+                  </a> <!-- quantityValidation(-1.1) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(-1)">
+                  </a> <!-- quantityValidation(-1) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(0)">
+                  </a> <!-- quantityValidation(0) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(c)">
+                  </a> <!-- quantityValidation(c) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(%$)">
+                  </a> <!-- quantityValidation(%$) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(CA)">
+                  </a> <!-- quantityValidation(CA) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(CA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(-1)">
+                  </a> <!-- quantityValidation(-1) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation( )">
+                  </a> <!-- quantityValidation( ) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(ca)">
+                  </a> <!-- quantityValidation(ca) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(0)">
+                  </a> <!-- quantityValidation(0) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(%$)">
+                  </a> <!-- quantityValidation(%$) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(%$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(-1.1)">
+                  </a> <!-- quantityValidation(-1.1) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(-1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(C)">
+                  </a> <!-- quantityValidation(C) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quantityValidation(c)">
+                  </a> <!-- quantityValidation(c) -->
+                  <span class="method-name">quantityValidation</span>
+                  <span class="parameters">(c)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProduct">
+                  </a> <!-- removeProduct -->
+                  <span class="method-name">removeProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProduct">
+                  </a> <!-- removeProduct -->
+                  <span class="method-name">removeProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalPriceVerification">
+                  </a> <!-- totalPriceVerification -->
+                  <span class="method-name">totalPriceVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalPriceVerification">
+                  </a> <!-- totalPriceVerification -->
+                  <span class="method-name">totalPriceVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalProductPriceVerification">
+                  </a> <!-- totalProductPriceVerification -->
+                  <span class="method-name">totalProductPriceVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalProductPriceVerification">
+                  </a> <!-- totalProductPriceVerification -->
+                  <span class="method-name">totalProductPriceVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Invoice_Suite-class-passed -->
+        </div> <!-- panel Invoice_Suite -->
+        <div panel-name="test-xml-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\git\invoice\src\main\resources\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Invoice Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.nhuha.invoice.ScreenshotOnFailure&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Run all invoice tests [FF]&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nhuha.invoice.tests.Run&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run all invoice tests [FF] --&gt;
+  &lt;test name=&quot;Run all invoice tests [Chrome]&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nhuha.invoice.tests.Run&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run all invoice tests [Chrome] --&gt;
+&lt;/suite&gt; &lt;!-- Invoice Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Invoice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run all invoice tests [FF] (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Run all invoice tests [Chrome] (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Invoice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Invoice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Invoice_Suite');
+function tableData_Invoice_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(136);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addProductNameValidatioONFalure')
+data.setCell(0, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(0, 3, 10793);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addProductNameValidatioONFalure')
+data.setCell(1, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(1, 3, 10748);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'totalPriceVerification')
+data.setCell(2, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(2, 3, 1760);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'editQuantityValidation')
+data.setCell(3, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(3, 3, 1710);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cancelEditProduct')
+data.setCell(4, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(4, 3, 952);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'totalPriceVerification')
+data.setCell(5, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(5, 3, 938);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'editQuantityValidation')
+data.setCell(6, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(6, 3, 812);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'totalProductPriceVerification')
+data.setCell(7, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(7, 3, 723);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cancelEditProduct')
+data.setCell(8, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(8, 3, 708);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'editPriceValidation')
+data.setCell(9, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(9, 3, 696);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'editQuantityValidation')
+data.setCell(10, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(10, 3, 684);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'editProductNameValidation')
+data.setCell(11, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(11, 3, 667);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'editProduct')
+data.setCell(12, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(12, 3, 660);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'removeProduct')
+data.setCell(13, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(13, 3, 658);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'editProduct')
+data.setCell(14, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(14, 3, 657);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'totalProductPriceVerification')
+data.setCell(15, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(15, 3, 654);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'editQantity')
+data.setCell(16, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(16, 3, 643);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'editUnit')
+data.setCell(17, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(17, 3, 642);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addProductNameValidation')
+data.setCell(18, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(18, 3, 638);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'editProductNameValidation')
+data.setCell(19, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(19, 3, 637);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'editQuantityValidation')
+data.setCell(20, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(20, 3, 637);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'editPriceValidation')
+data.setCell(21, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(21, 3, 631);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addProductPriceValidation')
+data.setCell(22, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(22, 3, 631);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'editPriceValidation')
+data.setCell(23, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(23, 3, 624);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'editQuantityValidation')
+data.setCell(24, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(24, 3, 623);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'editPriceValidation')
+data.setCell(25, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(25, 3, 623);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'editQantity')
+data.setCell(26, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(26, 3, 621);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'editPriceValidation')
+data.setCell(27, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(27, 3, 619);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'addProductNameValidation')
+data.setCell(28, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(28, 3, 613);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'editPrice')
+data.setCell(29, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(29, 3, 613);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'editQuantityValidation')
+data.setCell(30, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(30, 3, 613);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'editQuantityValidation')
+data.setCell(31, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(31, 3, 612);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addProductPriceValidation')
+data.setCell(32, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(32, 3, 604);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'editUnit')
+data.setCell(33, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(33, 3, 603);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'editPriceValidation')
+data.setCell(34, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(34, 3, 601);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'addProductPriceQuantity')
+data.setCell(35, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(35, 3, 598);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'editQuantityValidation')
+data.setCell(36, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(36, 3, 598);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'editProductNameValidation')
+data.setCell(37, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(37, 3, 597);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'editQuantityValidation')
+data.setCell(38, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(38, 3, 596);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'editQuantityValidation')
+data.setCell(39, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(39, 3, 592);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'editQuantityValidation')
+data.setCell(40, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(40, 3, 589);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'editPriceValidation')
+data.setCell(41, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(41, 3, 588);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'editPriceValidation')
+data.setCell(42, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(42, 3, 586);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'editProductNameValidation')
+data.setCell(43, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(43, 3, 586);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'editPriceValidation')
+data.setCell(44, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(44, 3, 586);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'editProductNameValidation')
+data.setCell(45, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(45, 3, 586);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'editPriceValidation')
+data.setCell(46, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(46, 3, 586);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'editQuantityValidation')
+data.setCell(47, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(47, 3, 583);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'editProductNameValidation')
+data.setCell(48, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(48, 3, 578);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'addProductPriceQuantity')
+data.setCell(49, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(49, 3, 575);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'editProductNameValidation')
+data.setCell(50, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(50, 3, 574);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'editPriceValidation')
+data.setCell(51, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(51, 3, 573);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'editProductNameValidation')
+data.setCell(52, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(52, 3, 571);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'editProductNameValidation')
+data.setCell(53, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(53, 3, 571);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'editPriceValidation')
+data.setCell(54, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(54, 3, 568);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'editProductNameValidation')
+data.setCell(55, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(55, 3, 568);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'editPriceValidation')
+data.setCell(56, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(56, 3, 567);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'editProductNameValidation')
+data.setCell(57, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(57, 3, 567);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'editPriceValidation')
+data.setCell(58, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(58, 3, 563);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'editPriceValidation')
+data.setCell(59, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(59, 3, 561);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'editProductNameValidation')
+data.setCell(60, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(60, 3, 556);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'editPrice')
+data.setCell(61, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(61, 3, 554);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'editQuantityValidation')
+data.setCell(62, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(62, 3, 549);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'editQuantityValidation')
+data.setCell(63, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(63, 3, 549);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'editQuantityValidation')
+data.setCell(64, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(64, 3, 548);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'editPriceValidation')
+data.setCell(65, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(65, 3, 547);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'editPriceValidation')
+data.setCell(66, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(66, 3, 547);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'removeProduct')
+data.setCell(67, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(67, 3, 546);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'editProductNameValidation')
+data.setCell(68, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(68, 3, 545);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'editQuantityValidation')
+data.setCell(69, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(69, 3, 543);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'editPriceValidation')
+data.setCell(70, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(70, 3, 535);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'editProductNameValidation')
+data.setCell(71, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(71, 3, 533);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'editQuantityValidation')
+data.setCell(72, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(72, 3, 527);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'editQuantityValidation')
+data.setCell(73, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(73, 3, 519);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'addUnitsKg')
+data.setCell(74, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(74, 3, 328);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'addUnitsM2')
+data.setCell(75, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(75, 3, 317);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'quantityValidation')
+data.setCell(76, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(76, 3, 312);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'addUnitsM')
+data.setCell(77, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(77, 3, 304);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'addUnitsL')
+data.setCell(78, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(78, 3, 297);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'addUnitsM')
+data.setCell(79, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(79, 3, 295);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'addUnitsM2')
+data.setCell(80, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(80, 3, 291);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'addUnitsL')
+data.setCell(81, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(81, 3, 286);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'addUnitsKg')
+data.setCell(82, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(82, 3, 281);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'addUnitsPcs')
+data.setCell(83, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(83, 3, 277);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'priceValidation')
+data.setCell(84, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(84, 3, 232);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'addUnitsPcs')
+data.setCell(85, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(85, 3, 223);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'quantityValidation')
+data.setCell(86, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(86, 3, 212);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'productNameValidation')
+data.setCell(87, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(87, 3, 203);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'priceValidation')
+data.setCell(88, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(88, 3, 185);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'priceValidation')
+data.setCell(89, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(89, 3, 185);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'productNameValidation')
+data.setCell(90, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(90, 3, 184);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'priceValidation')
+data.setCell(91, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(91, 3, 181);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'productNameValidation')
+data.setCell(92, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(92, 3, 177);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'quantityValidation')
+data.setCell(93, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(93, 3, 176);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'productNameValidation')
+data.setCell(94, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(94, 3, 175);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'quantityValidation')
+data.setCell(95, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(95, 3, 175);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'quantityValidation')
+data.setCell(96, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(96, 3, 171);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'priceValidation')
+data.setCell(97, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(97, 3, 171);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'quantityValidation')
+data.setCell(98, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(98, 3, 168);
+data.setCell(99, 0, 99)
+data.setCell(99, 1, 'quantityValidation')
+data.setCell(99, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(99, 3, 164);
+data.setCell(100, 0, 100)
+data.setCell(100, 1, 'priceValidation')
+data.setCell(100, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(100, 3, 164);
+data.setCell(101, 0, 101)
+data.setCell(101, 1, 'quantityValidation')
+data.setCell(101, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(101, 3, 164);
+data.setCell(102, 0, 102)
+data.setCell(102, 1, 'quantityValidation')
+data.setCell(102, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(102, 3, 163);
+data.setCell(103, 0, 103)
+data.setCell(103, 1, 'productNameValidation')
+data.setCell(103, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(103, 3, 163);
+data.setCell(104, 0, 104)
+data.setCell(104, 1, 'priceValidation')
+data.setCell(104, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(104, 3, 162);
+data.setCell(105, 0, 105)
+data.setCell(105, 1, 'priceValidation')
+data.setCell(105, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(105, 3, 162);
+data.setCell(106, 0, 106)
+data.setCell(106, 1, 'productNameValidation')
+data.setCell(106, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(106, 3, 162);
+data.setCell(107, 0, 107)
+data.setCell(107, 1, 'quantityValidation')
+data.setCell(107, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(107, 3, 162);
+data.setCell(108, 0, 108)
+data.setCell(108, 1, 'quantityValidation')
+data.setCell(108, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(108, 3, 161);
+data.setCell(109, 0, 109)
+data.setCell(109, 1, 'priceValidation')
+data.setCell(109, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(109, 3, 161);
+data.setCell(110, 0, 110)
+data.setCell(110, 1, 'quantityValidation')
+data.setCell(110, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(110, 3, 161);
+data.setCell(111, 0, 111)
+data.setCell(111, 1, 'productNameValidation')
+data.setCell(111, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(111, 3, 160);
+data.setCell(112, 0, 112)
+data.setCell(112, 1, 'priceValidation')
+data.setCell(112, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(112, 3, 160);
+data.setCell(113, 0, 113)
+data.setCell(113, 1, 'quantityValidation')
+data.setCell(113, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(113, 3, 159);
+data.setCell(114, 0, 114)
+data.setCell(114, 1, 'priceValidation')
+data.setCell(114, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(114, 3, 158);
+data.setCell(115, 0, 115)
+data.setCell(115, 1, 'productNameValidation')
+data.setCell(115, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(115, 3, 157);
+data.setCell(116, 0, 116)
+data.setCell(116, 1, 'quantityValidation')
+data.setCell(116, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(116, 3, 157);
+data.setCell(117, 0, 117)
+data.setCell(117, 1, 'priceValidation')
+data.setCell(117, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(117, 3, 157);
+data.setCell(118, 0, 118)
+data.setCell(118, 1, 'quantityValidation')
+data.setCell(118, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(118, 3, 156);
+data.setCell(119, 0, 119)
+data.setCell(119, 1, 'quantityValidation')
+data.setCell(119, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(119, 3, 155);
+data.setCell(120, 0, 120)
+data.setCell(120, 1, 'quantityValidation')
+data.setCell(120, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(120, 3, 155);
+data.setCell(121, 0, 121)
+data.setCell(121, 1, 'priceValidation')
+data.setCell(121, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(121, 3, 152);
+data.setCell(122, 0, 122)
+data.setCell(122, 1, 'productNameValidation')
+data.setCell(122, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(122, 3, 152);
+data.setCell(123, 0, 123)
+data.setCell(123, 1, 'priceValidation')
+data.setCell(123, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(123, 3, 152);
+data.setCell(124, 0, 124)
+data.setCell(124, 1, 'priceValidation')
+data.setCell(124, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(124, 3, 152);
+data.setCell(125, 0, 125)
+data.setCell(125, 1, 'priceValidation')
+data.setCell(125, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(125, 3, 151);
+data.setCell(126, 0, 126)
+data.setCell(126, 1, 'productNameValidation')
+data.setCell(126, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(126, 3, 151);
+data.setCell(127, 0, 127)
+data.setCell(127, 1, 'quantityValidation')
+data.setCell(127, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(127, 3, 149);
+data.setCell(128, 0, 128)
+data.setCell(128, 1, 'priceValidation')
+data.setCell(128, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(128, 3, 148);
+data.setCell(129, 0, 129)
+data.setCell(129, 1, 'productNameValidation')
+data.setCell(129, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(129, 3, 148);
+data.setCell(130, 0, 130)
+data.setCell(130, 1, 'productNameValidation')
+data.setCell(130, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(130, 3, 148);
+data.setCell(131, 0, 131)
+data.setCell(131, 1, 'priceValidation')
+data.setCell(131, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(131, 3, 147);
+data.setCell(132, 0, 132)
+data.setCell(132, 1, 'productNameValidation')
+data.setCell(132, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(132, 3, 141);
+data.setCell(133, 0, 133)
+data.setCell(133, 1, 'productNameValidation')
+data.setCell(133, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(133, 3, 141);
+data.setCell(134, 0, 134)
+data.setCell(134, 1, 'emptyFieldsValidation')
+data.setCell(134, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(134, 3, 89);
+data.setCell(135, 0, 135)
+data.setCell(135, 1, 'emptyFieldsValidation')
+data.setCell(135, 2, 'com.nhuha.invoice.tests.Run')
+data.setCell(135, 3, 83);
+window.suiteTableData['Invoice_Suite']= { tableData: data, tableDiv: 'times-div-Invoice_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Invoice_Suite">
+              </div> <!-- times-div-Invoice_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Invoice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductNameValidatioONFalure</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Saved <a href=./screenshots/1411911432353.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductNameValidatioONFalure</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Saved <a href=./screenshots/1411911475084.png>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Invoice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nhuha.invoice.tests.Run</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginAdmin</span>
+                <span class="method-start">5637 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductNameValidatioONFalure</span>
+                <span class="method-start">5661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductNameValidation</span>
+                <span class="method-start">16628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductPriceQuantity</span>
+                <span class="method-start">17242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductPriceValidation</span>
+                <span class="method-start">17817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsKg</span>
+                <span class="method-start">18422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsL</span>
+                <span class="method-start">18703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsM</span>
+                <span class="method-start">19000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsM2</span>
+                <span class="method-start">19295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsPcs</span>
+                <span class="method-start">19587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelEditProduct</span>
+                <span class="method-start">19811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPrice</span>
+                <span class="method-start">20520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation( )</span>
+                <span class="method-start">21077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(0)</span>
+                <span class="method-start">21625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(-1.1)</span>
+                <span class="method-start">22322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(C)</span>
+                <span class="method-start">22910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(c)</span>
+                <span class="method-start">23446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(-1)</span>
+                <span class="method-start">24078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(CA)</span>
+                <span class="method-start">24625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(ca)</span>
+                <span class="method-start">25194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(%$)</span>
+                <span class="method-start">25784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProduct</span>
+                <span class="method-start">26358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation( )</span>
+                <span class="method-start">27017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(12)</span>
+                <span class="method-start">27562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(C)</span>
+                <span class="method-start">28133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(c)</span>
+                <span class="method-start">28690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(CA)</span>
+                <span class="method-start">29358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(ca)</span>
+                <span class="method-start">29995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(%$)</span>
+                <span class="method-start">30529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQantity</span>
+                <span class="method-start">31103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation( )</span>
+                <span class="method-start">31747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(0)</span>
+                <span class="method-start">32266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(-1.1)</span>
+                <span class="method-start">32809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(C)</span>
+                <span class="method-start">33357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(c)</span>
+                <span class="method-start">33885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(-1)</span>
+                <span class="method-start">34570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(CA)</span>
+                <span class="method-start">36280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(ca)</span>
+                <span class="method-start">36829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(%$)</span>
+                <span class="method-start">37641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editUnit</span>
+                <span class="method-start">38191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emptyFieldsValidation</span>
+                <span class="method-start">38833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation( )</span>
+                <span class="method-start">38922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(0)</span>
+                <span class="method-start">39084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(-1.1)</span>
+                <span class="method-start">39265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(C)</span>
+                <span class="method-start">39451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(c)</span>
+                <span class="method-start">39615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(-1)</span>
+                <span class="method-start">39801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(CA)</span>
+                <span class="method-start">39973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(ca)</span>
+                <span class="method-start">40134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(%$)</span>
+                <span class="method-start">40286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation( )</span>
+                <span class="method-start">40522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(12)</span>
+                <span class="method-start">40706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(C)</span>
+                <span class="method-start">40909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(c)</span>
+                <span class="method-start">41086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(CA)</span>
+                <span class="method-start">41239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(ca)</span>
+                <span class="method-start">41415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(%$)</span>
+                <span class="method-start">41575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation( )</span>
+                <span class="method-start">41741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(0)</span>
+                <span class="method-start">41904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(-1.1)</span>
+                <span class="method-start">42066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(C)</span>
+                <span class="method-start">42235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(c)</span>
+                <span class="method-start">42394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(-1)</span>
+                <span class="method-start">42559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(CA)</span>
+                <span class="method-start">42731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(ca)</span>
+                <span class="method-start">42944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(%$)</span>
+                <span class="method-start">43256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeProduct</span>
+                <span class="method-start">43432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalPriceVerification</span>
+                <span class="method-start">43979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalProductPriceVerification</span>
+                <span class="method-start">44917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">45572 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">45689 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginAdmin</span>
+                <span class="method-start">48439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProductNameValidatioONFalure</span>
+                <span class="method-start">48441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductNameValidation</span>
+                <span class="method-start">59304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductPriceQuantity</span>
+                <span class="method-start">59943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductPriceValidation</span>
+                <span class="method-start">60541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsKg</span>
+                <span class="method-start">61172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsL</span>
+                <span class="method-start">61501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsM</span>
+                <span class="method-start">61788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsM2</span>
+                <span class="method-start">62093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUnitsPcs</span>
+                <span class="method-start">62410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelEditProduct</span>
+                <span class="method-start">62688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPrice</span>
+                <span class="method-start">63640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation( )</span>
+                <span class="method-start">64253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(0)</span>
+                <span class="method-start">64820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(-1.1)</span>
+                <span class="method-start">65422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(C)</span>
+                <span class="method-start">66046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(c)</span>
+                <span class="method-start">66610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(-1)</span>
+                <span class="method-start">67197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(CA)</span>
+                <span class="method-start">67816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(ca)</span>
+                <span class="method-start">68402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPriceValidation(%$)</span>
+                <span class="method-start">69026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProduct</span>
+                <span class="method-start">69587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation( )</span>
+                <span class="method-start">70247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(12)</span>
+                <span class="method-start">70814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(C)</span>
+                <span class="method-start">71392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(c)</span>
+                <span class="method-start">71963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(CA)</span>
+                <span class="method-start">72531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(ca)</span>
+                <span class="method-start">73117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProductNameValidation(%$)</span>
+                <span class="method-start">73703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQantity</span>
+                <span class="method-start">74301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation( )</span>
+                <span class="method-start">74923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(0)</span>
+                <span class="method-start">75535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(-1.1)</span>
+                <span class="method-start">76158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(C)</span>
+                <span class="method-start">76795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(c)</span>
+                <span class="method-start">77378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(-1)</span>
+                <span class="method-start">77968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(CA)</span>
+                <span class="method-start">78564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(ca)</span>
+                <span class="method-start">79156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editQuantityValidation(%$)</span>
+                <span class="method-start">79754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editUnit</span>
+                <span class="method-start">80367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emptyFieldsValidation</span>
+                <span class="method-start">80971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation( )</span>
+                <span class="method-start">81054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(0)</span>
+                <span class="method-start">81206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(-1.1)</span>
+                <span class="method-start">81358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(C)</span>
+                <span class="method-start">81516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(c)</span>
+                <span class="method-start">81664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(-1)</span>
+                <span class="method-start">81827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(CA)</span>
+                <span class="method-start">81986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(ca)</span>
+                <span class="method-start">82138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceValidation(%$)</span>
+                <span class="method-start">82285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation( )</span>
+                <span class="method-start">82445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(12)</span>
+                <span class="method-start">82586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(C)</span>
+                <span class="method-start">82728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(c)</span>
+                <span class="method-start">82890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(CA)</span>
+                <span class="method-start">83039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(ca)</span>
+                <span class="method-start">83196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productNameValidation(%$)</span>
+                <span class="method-start">83345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation( )</span>
+                <span class="method-start">83497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(0)</span>
+                <span class="method-start">83654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(-1.1)</span>
+                <span class="method-start">83811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(C)</span>
+                <span class="method-start">83986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(c)</span>
+                <span class="method-start">84135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(-1)</span>
+                <span class="method-start">84290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(CA)</span>
+                <span class="method-start">84445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(ca)</span>
+                <span class="method-start">84606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quantityValidation(%$)</span>
+                <span class="method-start">84770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeProduct</span>
+                <span class="method-start">84932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalPriceVerification</span>
+                <span class="method-start">85590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalProductPriceVerification</span>
+                <span class="method-start">87350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">88073 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
